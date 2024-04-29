@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    height: 100vh;
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 150px;
+}
+
+
+/* cabeça */
+
+header{
+    background-color: rgb(255, 255, 255);
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(153, 0, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .more button{
+    cursor: pointer;
+    color: white;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 50px;
+    background: purple;
+}
+
+/* main */
+
+section.main-section{
+    padding: 40px 4%;
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.main-text{
+    text-align: center;
+}
+
+.main-text h1{
+    font-size: 40px;
+}
+
+.main-text span{
+    color: purple;
+}
+
+.main-text p{
+    margin: 10px;
+    font-size: 24px;
+    text-align: justify;
+    word-spacing: -0.1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.main-img img{
+    margin-top: 3rem;
+    border-radius: 20px;
+    width: 700px;
+    margin-right: 20px;
+}
+
+.main-button button{
+    cursor: pointer;
+    color: white;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 10px;
+    background: purple;
+}
+
+.main-button p{
+    margin-top: -100px;
+}
+
+.main-button i{
+    width: 30px;
+    
+}
+
+section.main-sobre{
+    padding: 40px 4%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.sobre-txt h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+}
+
+section.site2{
+    display: flex;
+}
+
+.site2 img{
+    margin-left: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.site2 p{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    word-spacing: -0.1rem;
+    margin-left: 300px;
+    max-width: 760px;
+}
+
+section.main-participantes{
+    padding: 40px 4%;
+}
+
+.participantestxt h1{
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+}
+
+.limite{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-box{
+    margin: 0 20px;
+}
+
+.main-box img{
+    width: 250px;
+    border-radius: 20px;
+    border: 2px solid purple;
+}
+
+.main-box h3, p{
+    text-align: center;
+}
+
+.main-box p{
+    font-size: 20px;
+}
+
+footer.formulario{
+    padding: 80px 4%;
+}
+
+.box-footer{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.box-footer h2{
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(19, 19, 19, 0.288);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.box-footer h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+.button-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button-enviar button{
+    background: purple;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    border: 0;
+    padding: 20px 40px;
+    border-radius: 20px;
+    
+}
+
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-footer{
+    margin: 30px;
+}
+
+.logo-footer img{
+    width: 300px;
+}
+
+.socialmedia{
+    margin-top: -220px;
+    text-align: end;
+}
+
+.socialmedia img{
+    margin: 20px;
+    width: 56px;
+    cursor: pointer;
+    border: 2px solid rgba(128, 0, 128, 0.39);
+    border-radius: 20%;
+    background: rgba(128, 0, 128, 0.774);
+}
+
+.socialmedia p{
+    font-size: 20px;
+}
